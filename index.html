@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make Virtu</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e946948b52.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,24 +18,31 @@
                 <div>
                     <a class="navbar-brand fw-bold fs-2" href="#">Navbar</a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
-                        <a class="nav-link text-black" href="#course">Courses</a>
-                        <a class="nav-link text-black" href="#deal">Deals</a>
-                        <a class="nav-link text-black" href="#success">Success</a>
-                        <a class="nav-link text-black" href="#about">About</a>
-                        <a class="nav-link text-black" href="form.html">Register</a>
-
+                <div class="d-flex align-items-center">
+                    <div class="d-flex justify-content-end d-none d-md-block d-lg-none me-1">
+                        <button type="button"
+                            class="btn btn-outline-primary fw-bold d-none d-md-block">Register</button>
                     </div>
 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-black" href="#course">Courses</a>
+                            <a class="nav-link text-black" href="#deal">Deals</a>
+                            <a class="nav-link text-black" href="#success">Success</a>
+                            <a class="nav-link text-black" href="#about">About</a>
+                            <a class="nav-link text-black" href="form.html">Register</a>
+
+                        </div>
+
+                    </div>
                 </div>
-                <button type="button" class="btn btn-outline-primary fw-bold ">Register</button>
+                <button type="button" class="btn btn-outline-primary fw-bold d-none d-lg-block">Register</button>
             </div>
         </nav>
         <!-- navbar end -->
@@ -323,33 +331,122 @@
                         <div class="card-body">
                             <h5 class="card-title">Jannatul Islam</h5>
                             <p class="card-text">Motion Design</p>
-                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card h-100">
-                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Imran Hossain</h5>
-                                <p class="card-text">Graphic Designer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card h-100">
-                                <img src="images/student/student-4.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h5 class="card-title">Nishi Akter</h5>
-                                    <p class="card-text">Web Developer</p>
-                                </div>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Imran Hossain</h5>
+                            <p class="card-text">Graphic Designer</p>
                         </div>
                     </div>
-                    <!-- card end -->
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nishi Akter</h5>
+                            <p class="card-text">Web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card end -->
         </section>
-        <div class="container justify-content-center align-items-center d-flex">
-            <button type="button" class="btn btn-primary">View All</button>
+        <div class="container justify-content-center d-flex ">
+            <div class="container justify-content-center d-flex mb-5 d-md-none ">
+                <button type="button" class="btn btn-primary ">View All</button>
+            </div>
+            <div class="container w-25 justify-content-center align-items-center mb-5 d-none d-lg-block">
+                <button type="button p-0 m-0" class="btn btn-primary ">View All</button>
+                <!-- here i need a support to move this button in center when the screen is large -->
+            </div>
         </div>
+        <!-- feedback -->
+        <div class="container d-flex justify-content-center text-center">
+            <div class="w-50">
+                <p class="h2 fw-bold">Some Students Feedback</p>
+                <p>
+                    <small>
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.
+                    </small>
+                </p>
+            </div>
+        </div>
+        <!-- feedback -->
+        <section class="container mb-5">
+            <div class="row g-2">
+                <!-- gutter is not responding -->
+                <div class="col-lg-6 col-md-12 col-12 border p-4 mb-4 mb-lg-0 position-relative">
+                    <span class="position-absolute top-50 start-0 translate-middle badge rounded-pill bg-info bg-opacity-10 text-info d-none d-lg-block">
+                        <i class="fa-solid fa-angle-left "></i>
+                        
+                    </span>
+                    <div class="container d-flex justify-content-between">
+                        <img src="images/comma.png" alt="" class="mb-3">
+                        <div class="d-flex w-25">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-regular fa-star text-warning"></i>
+                        </div>
+
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem.</p>
+                    <div class="d-flex align-items-center gap-3 ">
+                        <div>
+                            <img src="images/student/student-5.png" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5>Awlad Hossain</h5>
+                            <p>UI Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 border p-4 position-relative">
+                    <span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-info text-white d-none d-lg-block">
+                        <i class="fa-solid fa-angle-right"></i>
+                        
+                    </span>
+                    <div class="container d-flex justify-content-between">
+                        
+                        <img src="images/comma.png" alt="" class="mb-3">
+                        <div class="d-flex w-25">
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-regular fa-star-half-stroke text-warning"></i>
+
+                        </div>
+
+                    </div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you are going to use a passage of Lorem.</p>
+                    <div class="d-flex align-items-center gap-3">
+                        <div>
+                            <img src="images/student/student-6.png" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5>Shanta Akter</h5>
+                            <p>Graphic designer</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <div class="container justify-content-center d-flex mb-5 d-lg-none ">
+            <button type="button" class="btn btn-primary ">View All</button>
+        </div>
+        
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
