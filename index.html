@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header class="container mb-5">
+    <header class="container ">
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg bg-white ">
             <div class="container">
@@ -25,7 +25,7 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
-                        <a class="nav-link text-black" href="#">Courses</a>
+                        <a class="nav-link text-black" href="#course">Courses</a>
                         <a class="nav-link text-black" href="#">Deals</a>
                         <a class="nav-link text-black" href="#">Success</a>
                         <a class="nav-link text-black" href="#">About</a>
@@ -34,26 +34,20 @@
                     </div>
 
                 </div>
-                <button type="button" class="btn btn-outline-primary fw-bold">Register</button>
+                <button type="button" class="btn btn-outline-primary fw-bold ">Register</button>
             </div>
         </nav>
         <!-- navbar end -->
         <!-- slider start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-            <!-- <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div> -->
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="false">
+          
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h2>Get Started Digital Learning</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
                         <button type="button" class="btn btn-info text-white">Get Started</button>
                     </div>
                 </div>
@@ -61,7 +55,8 @@
                     <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h2>Get Started Digital Learning</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
                         <button type="button" class="btn btn-info text-white">Get Started</button>
                     </div>
                 </div>
@@ -69,18 +64,19 @@
                     <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h2>Get Started Digital Learning</h2>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
                         <button type="button" class="btn btn-info text-white">Get Started</button>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev d-none d-sm-block" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev d-none d-sm-block" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next d-none d-sm-block" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
+            <button class="carousel-control-next d-none d-sm-block" type="button"
+                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -88,7 +84,91 @@
         <!-- slider end -->
     </header>
     <main>
-        
+        <!-- discover section -->
+        <div class="container">
+            <div class="justify-content-center align-items-center d-flex flex-column container w-50 mb-5 mt-5">
+                <p class="h3">Discover Our Popular Courses</p>
+                <p class="text-center "><small>
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout.
+                    </small></p>
+            </div>
+        </div>
+        <!-- course list -->
+
+        <div class="container mb-5" id="course">
+            <div class="row row-cols-lg-2 row-cols-md-1 gy-5">
+                <!-- //gutter is not responding -->
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column ">
+                    <div>
+                        <img src="images/course/course-1.png" alt="">
+                    </div>
+                    <div class="container pt-3">
+                        <p class="h5">Fundamental Of UI/UX Design</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column">
+                    <div><img src="images/course/course-2.png" alt=""></div>
+                    <div class="container pt-3">
+                        <p class="h5">Javascript Basic to advanced</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column">
+                    <div><img src="images/course/course-3.png" alt=""></div>
+                    <div class="container pt-3">
+                        <p class="h5">Fullstack Web Development</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column">
+                    <div><img src="images/course/course-4.png" alt=""></div>
+                    <div class="container pt-3">
+                        <p class="h5">Digital Marketing</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column">
+                    <div><img src="images/course/course-5.png" alt=""></div>
+                    <div class="container pt-3">
+                        <p class="h5">Photography Basic Rules</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+                <div class=" border rounded   align-items-center  d-flex flex-md-row flex-sm-column flex-column">
+                    <div><img src="images/course/course-6.png" alt=""></div>
+                    <div class="container ">
+                        <p class="h5">Motion Graphics</p>
+                        <p><small>Some quick example text to build on the card title and make up the bulk of the
+                                card.</small></p>
+                        <p class="text-info">Price : 20$</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container justify-content-center d-flex mb-5 ">
+            <div class="d-md-block d-sm-none d-none ">
+                <button type="button" class="btn btn-primary btn-lg ">See more Courses</button>
+                
+            </div>
+            <div class=" d-md-none ">
+                <button type="button" class="btn btn-primary btn-lg ">View All</button>
+                
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
