@@ -8,6 +8,7 @@
     <title>Make Virtu</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/e946948b52.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -16,7 +17,7 @@
         <nav class="navbar navbar-expand-lg bg-white ">
             <div class="container">
                 <div>
-                    <a class="navbar-brand fw-bold fs-2" href="#">Navbar</a>
+                    <a class="navbar-brand fw-bold fs-2" href="#">Make Virtu</a>
                 </div>
                 <div class="d-flex align-items-center">
                     <div class="d-flex justify-content-end d-none d-md-block d-lg-none me-1">
@@ -94,7 +95,7 @@
     <main>
         <!-- discover section -->
         <div class="container">
-            <div class="justify-content-center align-items-center d-flex flex-column container w-50 mb-5 mt-5">
+            <div class="justify-content-center d-flex flex-column container w-75 mb-5 mt-5 text-center">
                 <p class="h3">Discover Our Popular Courses</p>
                 <p class="text-center "><small>
                         It is a long established fact that a reader will be distracted by the readable content of a page
@@ -307,7 +308,7 @@
         </section>
         <!-- Successfull students section -->
         <div class=" container d-flex flex-column justify-content-start mt-5 mb-5">
-            <div class="w-50">
+            <div class="w-75">
                 <p class="h2 text-black p-0">Meet Our Successfull students</p>
                 <p class="text-black"><small>It is a long established fact that a reader will be distracted by the
                         readable content of a page when looking at its layout.</small></p>
@@ -366,7 +367,7 @@
         </div>
         <!-- feedback -->
         <div class="container d-flex justify-content-center text-center">
-            <div class="w-50">
+            <div class="w-75">
                 <p class="h2 fw-bold">Some Students Feedback</p>
                 <p>
                     <small>
@@ -381,9 +382,10 @@
             <div class="row g-2">
                 <!-- gutter is not responding -->
                 <div class="col-lg-6 col-md-12 col-12 border p-4 mb-4 mb-lg-0 position-relative">
-                    <span class="position-absolute top-50 start-0 translate-middle badge rounded-pill bg-info bg-opacity-10 text-info d-none d-lg-block">
+                    <span
+                        class="position-absolute top-50 start-0 translate-middle badge rounded-pill bg-info bg-opacity-10 text-info d-none d-lg-block">
                         <i class="fa-solid fa-angle-left "></i>
-                        
+
                     </span>
                     <div class="container d-flex justify-content-between">
                         <img src="images/comma.png" alt="" class="mb-3">
@@ -410,12 +412,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12 border p-4 position-relative">
-                    <span class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-info text-white d-none d-lg-block">
+                    <span
+                        class="position-absolute top-50 start-100 translate-middle badge rounded-pill bg-info text-white d-none d-lg-block">
                         <i class="fa-solid fa-angle-right"></i>
-                        
+
                     </span>
                     <div class="container d-flex justify-content-between">
-                        
+
                         <img src="images/comma.png" alt="" class="mb-3">
                         <div class="d-flex w-25">
                             <i class="fa-solid fa-star text-warning"></i>
@@ -446,8 +449,143 @@
         <div class="container justify-content-center d-flex mb-5 d-lg-none ">
             <button type="button" class="btn btn-primary ">View All</button>
         </div>
-        
+        <!-- FAQ -->
+        <div class="container d-flex justify-content-center text-center">
+            <div class="w-50">
+                <p class="h3 fw-bold">Frequently Asked Questions</p>
+                <p>
+                    <small>
+                        It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.
+                    </small>
+                </p>
+            </div>
+        </div>
+        <!-- FAQ -->
+        <div class="container d-flex justify-content-center mb-5">
+            <div class="container-lg">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the difference between flex and grid?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Flex vs grid :</strong> Grid is made for two-dimensional layout while Flexbox is
+                                for one. This means Flexbox can work on either row or columns at a time, but Grids can
+                                work on both. When working on either element (row or column), you are most associated
+                                with the content.there is another way to decide if you should use flexbox or grid for a
+                                layout. Flexbox works from the content out. An ideal use case for flexbox is when you
+                                have a set of items and want to space them out evenly in a container. When you use CSS
+                                Grid Layout you create a layout and then you place items into it
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What is the difference between bootstrap and Tailwind?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Tailwind CSS vs Bootstrap:</strong> Bootstrap comes with a set of pre-styled
+                                responsive, mobile-first components that possess a definite UI kit.Tailwind offers
+                                predesigned widgets to build a site from scratch with fast UI development.And where
+                                Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and
+                                uniqueness.Sites created using Bootstrap follow the generic pattern that makes them look
+                                identical.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is CSS box model?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>CSS box model:</strong> In CSS, the term "box model" is used when talking about
+                                design and layout. The CSS box model is essentially a box that wraps around every HTML
+                                element. It consists of: margins, borders, padding, and the actual content.In CSS we
+                                broadly have two types of boxes — block boxes and inline boxes. The type refers to how
+                                the box behaves in terms of page flow and in relation to other boxes on the page. Boxes
+                                have an inner display type and an outer display type.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                What is the semantic tag in html?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>semantic tags:</strong> Semantic HTML or semantic markup is HTML that introduces
+                                meaning to the web page rather than just presentation. For example, a
+                                tag indicates that the enclosed text is a paragraph. This is both semantic and
+                                presentational because people know what paragraphs are, and browsers know how to display
+                                them.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- trusted section -->
+        <section class="container d-lg-block   d-none my-5">
+
+            <h1 class="fw-semibold text-center">Trusted by over 800+ companies</h1>
+
+            <div class="d-lg-flex justify-content-between mt-lg-5">
+
+                <img class="img-fluid" src="images/company/company-1.png" alt="">
+                <img class="img-fluid" src="images/company/company-2.png" alt="">
+                <img class="img-fluid" src="images/company/company-3.png" alt="">
+                <img class="img-fluid" src="images/company/company-4.png" alt="">
+                <img class="img-fluid" src="images/company/company-5.png" alt="">
+                <img class="img-fluid" src="images/company/company-6.png" alt="">
+
+            </div>
+
+        </section>
     </main>
+    <footer>
+        <footer class="container-fluid bg-black">
+            <div class="w-50  mx-auto text-center p-4">
+
+                <h1 class="display-4 fw-bold text-white mt-lg-4 mt-3 ">Make Virtu</h1>
+
+                <p class="text-white-50">office 41, Zawaya Buildin,Ghala Muscat</p>
+                <p class="text-white-50">Sultanate of Oman</p>
+                <p class="text-white-50">Privacy Policy | Terms of Use </p>
+
+                <div class="icons d-flex justify-content-center gap-3 text-white mb-lg-5 mb-3">
+
+                    <a class="h3 text-secondary " href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>
+                        <a class="h3 text-secondary" href="https://www.instagram.com/?hl=en"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="h3 text-secondary" href="https://www.twitter.com/"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a class="h3 text-secondary" href="https://www.whatsapp.com/"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+
+                </div>
+            </div>
+        </footer>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
